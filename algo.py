@@ -1,0 +1,23 @@
+
+# this memeory is used for storing all the expericec of each action and state...
+
+MAX_MEMORY = 100_000 # experience memory
+BATCH_SIZE = 1000 # batch size for processing the model decision
+LR = 0.001 # learning rate to control learning of the DQN
+
+
+# we need two models for perform action...
+    Linear_QNet(11,256,3) 
+        
+    QTrainer(self.model,lr=LR,gamma=self.gamma)
+
+# get the state of the snake header .... this will be 
+def get_state(self,game):
+    # chacking the collision with all the possible cases....
+    # this will contain the sanke header and food position...
+    # this will also calculate the collision position...
+def remember(self,state,action,reward,next_state,done):
+    # saving the state action reward next_state in the experience replay memory ...
+
+get_action()
+    # This will give the optimal action for sanke ...
