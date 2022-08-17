@@ -6,8 +6,8 @@ position of the food, so according to these inputs our agent will apply a Q-lear
 neural network and give the best possible move at that particular moment.
 
 # Three Module:
-1 The Environment (the game that we build) 
-2 The Model (Reinforcement model for move prediction)
-3 The Agent (Intermediary between Environment and Model)
+1 The Environment (the game that we build) <br>
+2 The Model (Reinforcement model for move prediction)<br>
+3 The Agent (Intermediary between Environment and Model) <br>
 
 
